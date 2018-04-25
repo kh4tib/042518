@@ -26,32 +26,33 @@ body {
     
     &__content {
         width: 10rem;
-        height: 4rem;
+        height: 6rem;
         overflow: hidden;
-        border: 1px solid tomato;
+        border: 3px solid blueviolet;
     }
 
     ul {
-        height: 4rem;
+        height: 8rem;
         position: relative;
-        bottom: 0rem;
         animation: 
-            textAnimationOne 8s -2s  linear infinite, 
-            textAnimationTwo 2s linear infinite;
+            textAnimationOne 8s -2s  linear infinite;
+
         li {
-            height: 4rem;
+            font-size: 5rem;
+            height: 8rem;
             display: flex;
             justify-content: center;
             align-items: center;
-            color: tomato;
+            color: blueviolet;
+
             &:nth-child(4) {
-                color: blue;
+                color: blueviolent;
             }
         }
     }
 
     .two {
-        color: violet;
+        color: blueviolet;
         animation: textAnimationOne 8s 4s linear infinite; 
     }
 }
@@ -62,48 +63,37 @@ body {
     }
 
     12.5% {
-        bottom: 4rem;
+        bottom: 8rem;
     }
     
     25% {
-        bottom: 4rem;
+        bottom: 8rem;
     }
 
     37.5% {
-        bottom: 8rem;
+        bottom: 8rem * 2;
     }
 
     50% {
-        bottom: 8rem;
+        bottom: 8rem * 2;
     }
 
     62.5% {
-        bottom: 12rem;
+        bottom: 8rem * 3;
     }
 
     75% {
-        bottom: 12rem;
+        bottom: 8rem * 3;
     }
 
     87.5% {
-        bottom: 16rem;
+        bottom: 8rem * 4;
         visibility: hidden;
     }
 
     100% {
-        bottom: 16rem;
+        bottom: 8rem * 4;
         visibility: hidden
     }
 
 }
-
-
-// @keyframes textaAnimatioTwo {
-//     from {
-//         visibility: visible;
-//     }
-
-//     to {
-//         visibility: hidden;
-//     }
-// }
