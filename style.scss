@@ -44,7 +44,6 @@ body {
             justify-content: center;
             align-items: center;
             color: tomato;
-
             &:nth-child(4) {
                 color: blue;
             }
@@ -52,6 +51,7 @@ body {
     }
 
     .two {
+        color: violet;
         animation: textAnimationOne 8s 4s linear infinite; 
     }
 }
